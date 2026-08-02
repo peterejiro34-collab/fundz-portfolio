@@ -74,7 +74,7 @@ def about():
 
             <div style="text-align:center; padding:40px; max-width:700px; margin:auto;">
                 <h1 style="color:#2e7d32;">I'm Peter, also called Fundz</h1>
-                <img src="/fundz.jpeg" style="width:200px; height:200px; border-radius:50%; border:4px solid #2e7d32; margin:20px;">
+                <img src="fundz.jpeg" style="width:200px; height:200px; border-radius:50%; border:4px solid #2e7d32; margin:20px;">
                     I'm a web developer, writer and also a graphic designer from Lagos.
                     I build websites and love tech 💻✨
                 </p>
