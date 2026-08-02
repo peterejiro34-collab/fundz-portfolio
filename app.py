@@ -56,15 +56,35 @@ def home():
     </body>
     </html>
     '''
-
+    
 @app.route('/about')
 def about():
     return f'''
-    <body style="background:#c3f0ca; font-family:Arial; text-align:center; padding:50px;">
-        <h1 style="color:green;">About {name}</h1>
-        <p>I built this website with Python and Flask!</p>
-        <a href="/" style="color:blue;">← Back to Home</a>
-    </body>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>About {name}</title>
+        </head>
+        <body style="background: linear-gradient(to right, #e8f5e9, #c8e6c9); font-family: Arial; margin:0;">
+            
+            <div style="background:white; padding:15px; box-shadow:0 2px 5px gray; text-align:center;">
+                <h2 style="margin:0; color:#2e7d32;">About {name}</h2>
+            </div>
+
+            <div style="text-align:center; padding:40px; max-width:700px; margin:auto;">
+                <h1 style="color:#2e7d32;">I'm Peter, also called Fundz</h1>
+                <p style="font-size:18px; line-height:1.6;">
+                    I'm a web developer, writer and also a graphic designer from Lagos.
+                    I build websites and love tech 💻✨
+                </p>
+                <br>
+                <a href="/" style="background:white; padding:12px 25px; border-radius:8px; text-decoration:none; color:#2e7d32; font-weight:bold;">
+                    ← Back to Home
+                </a>
+            </div>
+        </body>
+    </html>
     '''
 
 # 4. SAVE MESSAGES
