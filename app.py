@@ -27,11 +27,11 @@ I'm a web developer, writer and also a graphic designer from Lagos. I build webs
             <a href="/project" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block; font-weight:bold; font-size:18px;">🚀 My Projects</a>
         </div>
         <h2 style="color:#228B22; text-align:center; margin-top:40px;">Work With Me</h2>
-<form style="max-width:500px; margin:20px auto; padding:20px; background:white; border-radius:10px;">
-    <input type="text" placeholder="Your Name" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required><br>
-    <input type="email" placeholder="Your Email" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required><br>
-    <textarea placeholder="Tell me about your project..." rows="4" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required></textarea><br>
-    <button type="submit" style="width:100%; padding:12px; background:#228B22; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">Send Message</button>
+<form action="https://wa.me/234XXXXXXXXXX?text=Hi Peter, I'm interested in working with you" method="get" target="_blank" style="max-width:500px; margin:20px auto; padding:20px; background:white; border-radius:10px;">
+    <input name="name" type="text" placeholder="Your Name" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required><br>
+    <input name="email" type="email" placeholder="Your Email" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required><br>
+    <textarea name="message" placeholder="Tell me about your project..." rows="4" style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;" required></textarea><br>
+    <button type="submit" style="width:100%; padding:12px; background:#228B22; color:white; border:none; border-radius:5px; font-size:16px; cursor:pointer;">Send Message via WhatsApp</button>
 </form>
         <div style="margin-top:60px; padding:20px; background:#f5f5f5;">
             <p style="color:#666;">© 2026 Fundz. All rights reserved.</p>
