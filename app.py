@@ -20,7 +20,7 @@ I'm a web developer, writer and also a graphic designer from Lagos. I build webs
 </div>
         
         <div style="margin-top:50px;">
-           <a href="/books" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block;">My Books</a>
+<a href="/books" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block;">My Books</a>
 <a href="/about" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block;">About Me</a>
 <a href="/project" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block;">My Projects</a>
         </div>
