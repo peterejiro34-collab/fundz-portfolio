@@ -87,10 +87,13 @@ def about():
     </html>
     '''
     @app.route('/books')
-    def books():
-        return render_template('books.html')
-
-# 4. SAVE MESSAGES
+def books():
+    books = [
+        {"title": "The Power of Mindset", "author": "Fundz", "price": "₦2,000"},
+        {"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "price": "₦3,500"},
+        {"title": "Atomic Habits", "author": "James Clear", "price": "₦4,000"}
+    ]
+    return render_template('books.html', books=books)# 4. SAVE MESSAGES
 @app.route('/submit', methods=['POST'])
 def submit():
     user_name = request.form['user_name']
