@@ -38,6 +38,9 @@ def about():
 @app.route('/project')
 def project():
     return render_template('project.html')
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
