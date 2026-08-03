@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Books - Fundz</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; background: #f5f5f5; padding: 40px; margin: 0; }
+        .nav { text-align: center; margin-bottom: 30px; }
+        .nav a { margin: 0 15px; color: #2e7d32; text-decoration: none; font-weight: bold; }
+        h1 { color: #2e7d32; text-align: center; font-size: 2.5em; }
+        .book-grid { display: flex; gap: 30px; justify-content: center; flex-wrap: wrap; max-width: 1000px; margin: 0 auto; }
+        .book { background: white; padding: 25px; border-radius: 15px; width: 300px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .book:hover { transform: translateY(-5px); }
+        .book img { width: 100%; border-radius: 8px; margin-bottom: 15px; }
+        .book h2 { color: #2e7d32; margin: 10px 0; }
+        .book p { color: #555; line-height: 1.6; font-size: 0.95em; }
+        .btn { background: #2e7d32; color: white; padding: 12px 25px; text-decoration: none; border-radius: 8px; display: inline-block; margin-top: 15px; font-weight: bold; }
+        .btn:hover { background: #1b5e20; }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="/">Home</a> | 
+        <a href="/about">About</a> | 
+        <a href="/projects">Projects</a> | 
+        <a href="/books">Books</a>
+    </div>
+    
+    <h1>My Books</h1>
+    
+    <div class="book-grid">
+        <div class="book">
+            <img src="power-of-mindsets.jpg" alt="The Power of Mindsets Cover">
+            <h2>The Power of Mindsets</h2>
+            <p>The Power of Mindset explores how your inner world—your thoughts, beliefs, emotions, habits, and identity—creates the reality you experience in life. The book explains the two primary mindsets (fixed and growth), how beliefs shape your identity, and how your inner conversations influence your confidence, decisions, productivity, and success.</p>
+            <a href="https://www.amazon.com/Power-Mindset-Inner-Shapes-Reality-ebook/dp/B0G62HJ5MZ?ref_=ast_author_mpb" target="_blank" class="btn">Get on Amazon →</a>
+        </div>
+    </div>
+</body>
+</html>
