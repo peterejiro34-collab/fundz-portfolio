@@ -12,7 +12,12 @@
 </head>
 <body>
     <h1>My Books</h1>
-
+<div style="text-align:center; padding:15px; background:#228B22;">
+    <a href="/" style="color:white; text-decoration:none; margin:0 10px; font-weight:bold;">Home</a> 
+    | <a href="/books" style="color:white; text-decoration:none; margin:0 10px; font-weight:bold;">Books</a> 
+    | <a href="/about" style="color:white; text-decoration:none; margin:0 10px; font-weight:bold;">About</a> 
+    | <a href="/project" style="color:white; text-decoration:none; margin:0 10px; font-weight:bold;">Projects</a>
+</div>
     <div class="book">
         <img src="{{ url_for('static', filename='mindset.jpg') }}" alt="The Power of Mindset">
         <h2>The Power of Mindset</h2>
