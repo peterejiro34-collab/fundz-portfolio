@@ -89,9 +89,9 @@ def about():
     @app.route('/books')
 def books():
     books = [
-        {"title": "The Power of Mindset", "author": "Fundz", "price": "₦2,000"},
-        {"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "price": "₦3,500"},
-        {"title": "Atomic Habits", "author": "James Clear", "price": "₦4,000"}
+        {"title": "The Power of Mindset", "author": "Fundz", "price": "N2,000"},
+        {"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "price": "N3,500"},
+        {"title": "Atomic Habits", "author": "James Clear", "price": "N4,000"}
     ]
     return render_template('books.html', books=books)
 
