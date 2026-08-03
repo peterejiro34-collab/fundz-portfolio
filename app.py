@@ -87,9 +87,8 @@ def about():
     </html>
     '''
     @app.route('/books')
-def books():
-    return 
-    render_template('books.html')
+    def books():
+        return render_template('books.html')
 
 # 4. SAVE MESSAGES
 @app.route('/submit', methods=['POST'])
