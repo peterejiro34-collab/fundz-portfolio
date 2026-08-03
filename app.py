@@ -88,13 +88,11 @@ def about():
     '''
     @app.route('/books')
 def books():
-    books = [
-        {"title": "The Power of Mindset", "author": "Fundz", "price": "N2,000"},
-        {"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "price": "N3,500"},
-        {"title": "Atomic Habits", "author": "James Clear", "price": "N4,000"}
-    ]
+    books = []
+    books.append({"title": "The Power of Mindset", "author": "Fundz", "price": "N2,000"})
+    books.append({"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "price": "N3,500"})
+    books.append({"title": "Atomic Habits", "author": "James Clear", "price": "N4,000"})
     return render_template('books.html', books=books)
-
 # 4. SAVE MESSAGES
 
 @app.route('/submit', methods=['POST'])
