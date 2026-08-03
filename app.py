@@ -11,6 +11,13 @@ def home():
         
         <h1 style="color:#228B22; font-size:40px; margin-bottom:10px;">Welcome to Fundz Website!</h1>
         <p style="font-size:18px; color:#333;">Web Developer | Writer | Graphic Designer</p>
+        <div style="text-align:center; padding:60px 20px; background:#f1f8e9;">
+<img src="{{ url_for('static', filename='peter.jpg') }}" alt="Peter - Author" style="width:180px; height:180px; border-radius:50%; object-fit:cover; border:4px solid #228B22; margin-bottom:20px;">
+<h2 style="color:#228B22; font-size:28px;">Meet Peter</h2>
+<p style="max-width:600px; margin:0 auto; font-size:16px; line-height:1.6; color:#333;">
+I'm a web developer, writer and also a graphic designer from Lagos. I build websites and love tech 💻✨
+</p>
+</div>
         
         <div style="margin-top:50px;">
             <a href="/books" style="background:#228B22; color:white; padding:18px 35px; border-radius:12px; text-decoration:none; margin:15px; display:inline-block; font-weight:bold; font-size:18px;">📚 My Books</a>
