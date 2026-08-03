@@ -86,6 +86,9 @@ def about():
         </body>
     </html>
     '''
+    @app.route('/projects')
+def projects():
+    return render_template('projects.html')
 
 # 4. SAVE MESSAGES
 @app.route('/submit', methods=['POST'])
