@@ -39,7 +39,41 @@ I'm a web developer, writer and also a graphic designer from Lagos. I build webs
     </body>
     </html>
     '''
+@app.route('/books')
+def books():
+    html = '''
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>My Books - Fundz</title>
+    </head>
+    <body style="font-family:Arial; background:#f0fff0; margin:0; padding:20px;">
+        <h1 style="color:#228B22; text-align:center;">My Books</h1>
+        
+        <div style="max-width:800px; margin:40px auto;">
+            
+            <div style="background:white; padding:20px; margin:20px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="color:#228B22;">Book Title 1</h3>
+                <p>Short description of your book. What will they learn?</p>
+                <a href="https://your-gumroad-link.com" target="_blank" style="background:#228B22; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block;">Buy Now - ₦2000</a>
+            </div>
 
+            <div style="background:white; padding:20px; margin:20px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);">
+                <h3 style="color:#228B22;">Book Title 2</h3>
+                <p>Short description of your book.</p>
+                <a href="https://your-amazon-link.com" target="_blank" style="background:#228B22; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; display:inline-block;">Buy Now - ₦3500</a>
+            </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:40px;">
+            <a href="/" style="color:#228B22;">← Back to Home</a>
+        </div>
+
+    </body>
+    </html>
+    '''
+    return html
 @app.route('/books')
 def books():
     return render_template('books.html')
