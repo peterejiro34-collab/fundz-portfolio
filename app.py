@@ -37,6 +37,7 @@ I'm a web developer, writer and also a graphic designer from Lagos. I build webs
     </body>
     </html>
     '''
+    return html
 @app.route('/books')
 def books():
     html = '''
