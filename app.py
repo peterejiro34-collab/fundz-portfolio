@@ -92,3 +92,42 @@ def books():
     </html>
     '''
     return html
+@app.route('/about')
+def about():
+    html = '''
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>About Peter</title>
+        <style>
+            body { font-family: Arial; background: #f8f5e9; padding: 40px 20px; max-width: 800px; margin: 0 auto; line-height: 1.8; }
+            h1 { color: #228B22; text-align: center; font-size: 36px; }
+            .bio { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+            img { width: 200px; height: 200px; border-radius: 50%; display: block; margin: 0 auto 20px; border: 4px solid #228B22; }
+            .btn { background: #228B22; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; margin-top: 20px; }
+        </style>
+    </head>
+    <body>
+        <h1>About Peter</h1>
+        <div class="bio">
+            <img src="/static/peter.jpg" alt="Peter">
+            <h2 style="text-align:center; color:#333;">Author | Web Developer | Mindset Coach</h2>
+            
+            <p>Hi, I'm Peter. I'm a writer from Lagos, Nigeria with a passion for helping people transform their lives through books, mindset, and technology.</p>
+            
+            <p>I wrote <b>The Power Of Mindset</b> to help people break limiting beliefs. 
+            <b>Breaking Free From Your Past</b> to help people heal. 
+            And <b>The Last Hope</b> to give people hope for the future.</p>
+            
+            <p>When I'm not writing, I'm building websites, designing graphics, and drinking way too much coffee ☕</p>
+            
+            <p><b>My Mission:</b> To inspire 1 million people to believe in themselves and take action.</p>
+            
+            <div style="text-align:center;">
+                <a href="/books" class="btn">Read My Books</a>
+            </div>
+        </div>
+    </body>
+    </html>
+    '''
+    return html
