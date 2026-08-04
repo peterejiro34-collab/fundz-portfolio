@@ -9,11 +9,16 @@ def home():
     <head><title>Fundz Portfolio</title></head>
     <body style="font-family:Arial; text-align:center; background:linear-gradient(to bottom, #e8f5e9, #ffffff); padding:50px 20px;">
         
-        <h1 style="color:#228B22; font-size:40px; margin-bottom:10px;">Welcome to Fundz Website!</h1>
-        <p style="font-size:18px; color:#333;">Web Developer | Writer | Graphic Designer</p>
+        <h1 style="color:#228B22; font-size:40px; margin-bottom:10px;">Peter</h1>
+<p style="font-size:18px; color:#333;">Bestselling Author & Mindset Coach</p>
         <div style="text-align:center; padding:60px 20px; background:#f1f8e9;">
 <img src="/static/peter.jpg" alt="Peter - Author" style="width:180px; height:180px; border-radius:50%; object-fit:cover; border:4px solid #228B22; margin-bottom:20px;">
 <h2 style="color:#228B22; font-size:28px;">Meet Peter</h2>
+<div style="background:linear-gradient(135deg, #667eea 0%, #764ba2 100%); color:white; padding:40px; border-radius:12px; margin:30px auto; max-width:800px; text-align:center;">
+    <h2 style="color:white; font-size:28px;">My Books Are Changing Lives</h2>
+    <p style="color:white; font-size:16px;">Join thousands of readers who are transforming their mindset, healing their past, and building hope for the future.</p>
+    <a href="/books" style="background:white; color:#667eea; padding:12px 24px; border-radius:6px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:10px;">Browse All Books →</a>
+</div>
 <p style="max-width:600px; margin:0 auto; font-size:16px; line-height:1.6; color:#333;">
 I'm a web developer, writer and also a graphic designer from Lagos. I build websites and love tech 💻✨
 </p>
