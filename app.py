@@ -57,26 +57,28 @@ def books():
     <body>
         <h1 style="text-align:center; color:#228B22;">My Books</h1>
         
-        <div class="book">
-            <h3>The Power Of Mindset & How Your Inner World Shapes Your Outer Reality</h3>
-            <p>Discover how your thoughts, beliefs, and habits create your reality. Learn to reprogram negative patterns and build a mindset for growth, confidence, and success.</p>
-            <a href="https://www.amazon.com/author/peterbooks" target="_blank">Buy on Amazon - ₦13,639</a>
-            <a href="https://wa.me/2347048595463?text=Hi%20Peter%20I%20want%20to%20buy%20'The%20Power%20Of%20Mindset'%20for%20₦13639" style="background:#25D366;">Order on WhatsApp</a>
-        </div>
+      <div class="book">
+    <img src="https://i.imgur.com/I4b5EQb.jpg" style="width:150px; border-radius:8px; margin-bottom:15px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <h2>The Power Of Mindset & How Your Inner World Shapes Your Outer Reality</h2>
+    <p>Discover how your thoughts, beliefs, and habits create your reality. Learn to reprogram negative patterns and build a mindset for growth, confidence, and success.</p>
+    <a href="https://amazon.com" target="_blank" class="btn">Buy on Amazon - N13,639</a>
+    <a href="https://wa.me/2347048595463?text=Hi! I want to order 'The Power Of Mindset' - N13,639" target="_blank" class="btn btn-whatsapp">Order on WhatsApp</a>
+</div>
 
-        <div class="book">
-            <h3>Breaking Free From Your Past</h3>
-            <p>A transformative guide to healing old wounds and reclaiming your life. Learn how childhood experiences shaped you and build a future rooted in self-worth and peace.</p>
-            <a href="https://www.amazon.com/author/peterbooks" target="_blank">Buy on Amazon - ₦81,836</a>
-            <a href="https://wa.me/2347048595463?text=Hi%20Peter%20I%20want%20to%20buy%20'Breaking%20Free%20From%20Your%20Past'%20for%20₦81836" style="background:#25D366;">Order on WhatsApp</a>
-        </div>
+<div class="book">
+    <img src="https://i.imgur.com/ef6d0sd.jpg" style="width:150px; border-radius:8px; margin-bottom:15px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <h2>Breaking Free From Your Past</h2>
+    <p>A transformative guide to healing old wounds and reclaiming your life. Learn how childhood experiences shaped you and build a future rooted in self-worth and peace.</p>
+    <a href="https://amazon.com" target="_blank" class="btn">Buy on Amazon - N81,836</a><a href="https://wa.me/2347048595463?text=Hi! I want to order 'Breaking Free From Your Past' - N81,836" target="_blank" class="btn btn-whatsapp">
+</div>
 
-        <div class="book">
-            <h3>The Last Hope</h3>
-            <p>In a dying world, one hero must find a legendary artifact to save humanity. A sci-fi adventure about teamwork, sacrifice, and hope shining brightest in dark times.</p>
-            <a href="https://www.amazon.com/author/peterbooks" target="_blank">Buy on Amazon - ₦10,912</a>
-            <a href="https://wa.me/2347048595463?text=Hi%20Peter%20I%20want%20to%20buy%20'The%20Last%20Hope'%20for%20₦10912" style="background:#25D366;">Order on WhatsApp</a>
-        </div>
+<div class="book">
+    <img src="https://i.imgur.com/p3QVRBI.jpg" style="width:150px; border-radius:8px; margin-bottom:15px; box-shadow:0 4px 8px rgba(0,0,0,0.1);">
+    <h2>The Last Hope</h2>
+    <p>In a dying world, one hero must find a legendary artifact to save humanity. A sci-fi adventure about teamwork, sacrifice, and hope shining brightest in dark times.</p>
+    <a href="https://amazon.com" target="_blank" class="btn">Buy on Amazon - N10,912</a>
+    <a href="https://wa.me/2347048595463?text=Hi! I want to order 'The Last Hope' - N10,912" target="_blank" class="btn btn-whatsapp">Order on WhatsApp</a>
+</div>
         
         <div style="text-align:center; margin-top:30px;">
             <a href="/" style="background:#666;">← Back to Home</a>
