@@ -73,10 +73,7 @@ def books():
     </html>
     '''
     return html
-@app.route('/books')
-def books():
-    return render_template('books.html')
-
+    
 @app.route('/about')
 def about():
     return render_template('about.html')
