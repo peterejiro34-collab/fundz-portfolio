@@ -8,7 +8,11 @@ def home():
     <html>
     <head><title>Fundz Portfolio</title></head>
     <body style="font-family:Arial; text-align:center; background:linear-gradient(to bottom, #e8f5e9, #ffffff); padding:50px 20px;">
-        
+     <nav style="background:#228B22; padding:15px; text-align:center; margin-bottom:30px;">
+    <a href="/" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Home</a>
+    <a href="/books" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Books</a>
+    <a href="/about" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">About Me</a>
+</nav>   
         <h1 style="color:#228B22; font-size:40px; margin-bottom:10px;">Peter</h1>
 <p style="font-size:18px; color:#333;">Bestselling Author & Mindset Coach</p>
         <div style="text-align:center; padding:60px 20px; background:#f1f8e9;">
@@ -60,6 +64,11 @@ def books():
         </style>
     </head>
     <body>
+<nav style="background:#228B22; padding:15px; text-align:center; margin-bottom:30px;">
+    <a href="/" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Home</a>
+    <a href="/books" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Books</a>
+    <a href="/about" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">About Me</a>
+</nav>
         <h1 style="text-align:center; color:#228B22;">My Books</h1>
         
       <div class="book">
