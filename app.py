@@ -140,3 +140,26 @@ def about():
     </html>
     '''
     return html
+@app.route('/projects')
+def projects():
+    html = '''
+    <!DOCTYPE html>
+    <html>
+    <head><title>Projects - Peter</title></head>
+    <body style="font-family:Arial; padding:40px; background:#f8f8f8;">
+        <nav style="background:#228B22; padding:15px; text-align:center; margin-bottom:30px;">
+            <a href="/" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Home</a>
+            <a href="/books" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Books</a>
+            <a href="/about" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">About Me</a>
+            <a href="/projects" style="color:white; text-decoration:none; margin:0 20px; font-weight:bold;">Projects</a>
+        </nav>
+        
+        <h1 style="text-align:center; color:#228B22;">My Projects</h1>
+        <div style="max-width:800px; margin:0 auto; text-align:center;">
+            <p>Coming Soon! 🚀</p>
+            <p>I'm building websites, designing graphics, and creating tools to help people.</p>
+        </div>
+    </body>
+    </html>
+    '''
+    return html
